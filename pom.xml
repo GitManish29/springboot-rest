@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.rest.example</groupId>
 	<artifactId>springboot-rest</artifactId>
+
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-rest</name>
 	<description>Demo project for Spring Boot Rest APIs</description>
@@ -41,6 +42,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -58,6 +60,12 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
+			<finalName>
+			springboot-rest
+			</finalName>
 	</build>
+
+
 
 </project>
