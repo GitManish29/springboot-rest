@@ -29,7 +29,7 @@ public class SpringbootRestApplication implements CommandLineRunner {
 		employee1.setFirstName("Jennie");
 		employee1.setLastName("Kurat");
 		employee1.setEmailId("xyz@gmail.com");
-		employeeRepository.save(employee);
+		employeeRepository.save(employee1);
 
 
 	}
