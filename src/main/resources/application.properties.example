@@ -1,0 +1,11 @@
+# Example application.properties — DO NOT store secrets here. Copy to application.properties and set real values.
+# Example values are placeholders and should be overridden in prod by environment variables or an external config.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ems?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.hibernate.ddl-auto=update
+server.port=8081
