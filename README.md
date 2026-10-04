@@ -13,6 +13,3 @@ SPRING BOOT CRUD REST API PROJECT
     <img src="https://skillicons.dev/icons?i=js,html,css,java,docker,mysql"/>
   </a>
 </p>
-
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css, java,docker,mysql)](https://skillicons.dev)
